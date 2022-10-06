@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 body {
     background-color: #ffd500;
     color:rgb(0, 0, 0);
@@ -6,6 +9,42 @@ body {
 .header {
     margin-left: 40px;
     margin-right: 40px;
+}
+
+#menu{
+    list-style: none;
+    padding: 10;
+    
+   
+}
+
+#menu li{
+    display: inline;
+    
+}
+
+#menu li a{
+    padding: 10px;
+    display: inline-block;
+    color: rgb(122, 0, 47);
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#menu li a:hover{
+    color:rgb(228, 0, 68);
+  text-shadow: 1px 1px 2px rgb(187, 42, 6), 0 0 25px rgb(53, 243, 5), 0 0 5px darkblue;
+}
+
+
+#menu li:last-child a{
+    color: rgb(255, 255, 255);
+    background-color: darkorange;
+    border-radius: 25px;
+    float: right;
+    display: inline;
 }
 
 #header1 {
@@ -38,6 +77,9 @@ body {
     text-align: right;
     display: inline-block;
 }
+
+
+
 .texto1 { 
     display: inline-block;
     font-size: medium;

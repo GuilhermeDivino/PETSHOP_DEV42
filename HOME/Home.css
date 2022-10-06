@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
-
 *{
     margin:0 auto;
     padding:0;
@@ -46,5 +45,23 @@
     border-radius: 25px;
     float: right;
     display: inline;
+}
+
+body {
+    background-color: #ffd500;
+    color:rgb(0, 0, 0);
+}
+
+#bannerplan img{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#prodest p{
+    padding: 60;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 156, 255);
+    text-shadow: 3px 3px 6px #000000;
+
 }
 
