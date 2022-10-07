@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    background-color: #ffd500;
+    color:rgb(0, 0, 0);
+}
+
+.header {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#menu{
+    list-style: none;
+    padding: 10;
+    
+   
+}
+
+#menu li{
+    display: inline;
+    
+}
+
+#menu li a{
+    padding: 10px;
+    display: inline-block;
+    color: rgb(122, 0, 47);
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#menu li a:hover{
+    color:rgb(228, 0, 68);
+  text-shadow: 1px 1px 2px rgb(187, 42, 6), 0 0 25px rgb(53, 243, 5), 0 0 5px darkblue;
+}
+
+
+#menu li:last-child a{
+    color: rgb(255, 255, 255);
+    background-color: darkorange;
+    border-radius: 25px;
+    float: right;
+    display: inline;
+}
+
+#header1 {
+    height: 300px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, sans-serif ;
+}
+
+#header-botao {
+    text-align: center;
+}
+#header5 {
+    text-align: center;
+    height: 550px;
+}
+
+.endereco{
+    padding: 20px;
+}
+
+#ende {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    line-height: 70px;
+    
+}
+
+.img_dog{
+    height: 450px;
+    float: right;
+    width: 40%;
+}
+
+.menu_agen{
+    letter-spacing: 3px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, sans-serif ;
+    background: #ff9500;
+}
+
+h3 {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end:50px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
