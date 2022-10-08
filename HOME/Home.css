@@ -10,7 +10,6 @@
 }
 
 
-
 #menu{
     list-style: none;
     padding: 10;
@@ -56,12 +55,63 @@ body {
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#prodest p{
-    padding: 60;
-    font-size: 60px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(50, 156, 255);
-    text-shadow: 3px 3px 6px #000000;
-
+#servicos{
+    padding: 10px;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+#servicos a{
+    padding: 10px;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#servicos1 a{
+    padding: 10px;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+#prodest img{
+    padding: 16px;
+}
+
+main.cards {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+main.cards section.card{
+    background-color: rgb(209, 118, 0);
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main.cards section.card button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+main.cards section.card h3{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+
+main.cards section.card span{
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(106, 240, 94);
+}
