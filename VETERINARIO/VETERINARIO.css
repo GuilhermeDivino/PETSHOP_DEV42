@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 10;
+    padding: 20;
+    box-sizing: border-box;
+    text-decoration:none;
+
+}
+
+body {
+    font-size: 100%;
+    background: #ffd500;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu{
+    list-style: none;
+    padding: 10;
+    background-color: #ffd500;
+   
+}
+
+#menu li{
+    display: inline;
+    
+}
+
+#menu li a{
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    
+
+}
+
+#menu li a:hover{
+    color:coral;
+  text-shadow: 1px 1px 2px rgb(187, 42, 6), 0 0 25px rgb(53, 243, 5), 0 0 5px darkblue;
+}
+
+
+#menu li:last-child a{
+    color: rgb(255, 255, 255);
+    background-color: darkorange;
+    border-radius: 25px;
+    float: right;
+    display: inline;
+}
+
+.cabecalho-imagem {
+    height: 70px;
+}
+
+.conteudo {
+    margin-bottom: 20px;
+    border-top: 0.5px solid #000000;
+}
+
+.principal {
+    gap: 32px;
+}
+
+.titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color:#000000;
+}
+
+.paragrafo {
+    font-family:'Times New Roman', Times, cursive;
+    font-weight: 200;
+    font-size: 15px;
+    gap: 32px;
+}
+
+.botao {
+    width: auto;
+    height: auto;
+}
