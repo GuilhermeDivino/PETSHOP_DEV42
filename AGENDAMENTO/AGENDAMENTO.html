@@ -24,16 +24,49 @@
 
 <body>
      <header class="header" id="header1">
-
+        <img src="imagens/dog_medico.jpg" class="img_dog" id="img1" >
     <div class = "endereco">
-        <ul id ="ende">
-            <li class="itens">Tipo de consulta</li>
-            <li class="itens">CEP</li>
-            <li class="itens">Estado</li>
-            <li class="itens">Cidade</li>
-            <li class="itens">Estabelecimento</li>
-        </ul>
-        <img src="dog_medico.jpg" class="img_dog" id="img1" >
+        
+        <form action="/pagina-processa-dados-do-form" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="usuario_nome" />
+                </div>
+                <div>
+                    <label for="pet">Nome do pet:</label>
+                    <input type="text" id="pet" name="nome_pet" />
+                </div>
+                <div>
+                    <label for="tipo">Tipo de consulta:</label>
+                        <select id="consulta" required>
+                          <option selected disabled value="">Selecionar</option>
+                          <option>Banho</option>
+                          <option>Tosa</option>
+                          <option>Banho+Tosa</option>
+                          <option>Consulta medica</option>
+                        </select>
+                    </div>
+                <div>
+                    <label for="estab">Estabelecimentos:</label>
+                    <select id="estabeci" required>
+                        <option selected disabled value="">Selecionar</option>
+                        <option>Endereco ficticio-1</option>
+                        <option>Endereco ficticio-2</option>
+                        <option>Endereco ficticio-3</option>
+                        <option>Endereco ficticio-4</option>
+                      </select>
+                  </div>
+                <div>
+                    <label for="estab">Data de Agendamento:</label>
+                     <input type="date" name="agendamento">
+                    </div>
+                   
+                    <div class="button">
+                        <button type="submit">Agendar consulta!</button>
+                    </div>
+                   
+            </form>
+        
     </div>
     
      </header>
@@ -41,15 +74,5 @@
     
      </header>
 
-
-  
-    
-<!--
-    <header class="header" id="header-botao"> 
-        <a href="https://www.Google.com">
-             <input type="image" src="Imagens/Botao_agendamento.png" style="border-style: hidden;" height ="40" width="960"/> 
-        </a>
-    </header>
-    -->
 </body>
 </html>
