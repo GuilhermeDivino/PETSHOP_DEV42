@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #ffd500;
+    color:rgb(0, 0, 0);
+}
+
+/* HEADER */
+
+.header {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#menu {
+    list-style: none;
+    padding: 5px;   
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    padding: 10px;
+    display: inline-block;
+    color: rgb(122, 0, 47);
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu li a:hover {
+    color:rgb(228, 0, 68);
+    text-shadow: 1px 1px 2px rgb(187, 42, 6), 0 0 25px rgb(53, 243, 5), 0 0 5px darkblue;
+}
+
+#menu li:last-child a {
+    color: rgb(255, 255, 255);
+    background-color: darkorange;
+    border-radius: 25px;
+    float: right;
+    display: inline;
+}
+
+/* FILTRO_ANIMAIS */
+
+.filtro_animais {
+    list-style: none;
+    padding: 10;
+    border-top: 1px solid rgb(0, 100, 100);
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.filtro_animais li {
+    display: inline;
+}
+
+.filtro_animais li a {
+    padding: 10px;
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.filtro_animais li a:hover {
+    color:coral;
+    text-shadow: 1px 1px 2px rgb(187, 42, 6), 0 0 25px rgb(53, 243, 5), 0 0 5px darkblue;
+}
+
+/* MAIS COMPRADOS */
+
+section > h3 {
+    font: bold 1.5em 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mais_comprados {
+    background-color: rgba(255, 0, 0, 0.250);
+    background-size: 100% 100%;
+    text-align: center;
+    align-items: center;
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+div {
+    display: inline-block;
+    justify-content: space-between;
+    background-color: darkgray;
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+/* CUPOM_DESCONTO */
+
+.cupom_desconto {
+    background-color: rgba(255, 0, 0, 0.500);
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1px 10px;
+    margin: 10px;
+}
+
+.cupom_desconto > p {
+    text-align: center;
+}
+
+/* SECTION */
+
+section > h2 {
+    font: bold 2em 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.produtos {
+    height: auto;
+    width: 1000px;
+    background-color: rgba(255, 0, 0, 0.250);
+    background-size: 5vw;
+    text-align: center;
+    align-items: center;
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.produtos > div {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+}
+
+footer > p {
+    text-align: center;
+}
