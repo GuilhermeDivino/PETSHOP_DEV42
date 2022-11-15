@@ -52,3 +52,28 @@ p.hidden {
     border-style: hidden;
     background-color: aliceblue;
 }
+
+div{
+    background-color: aliceblue;
+    padding: 10px;
+  margin: 40px;
+  text-align: center;
+ 
+  
+}
+
+button{
+    background-color: rgb(0, 168, 8);
+    border: none;
+    padding: 15px;
+    width: 15%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+  
+    
+}
+button:hover{
+    background-color: rgb(22, 192, 0);
+    cursor: pointer;
+}
