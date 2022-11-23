@@ -11,6 +11,7 @@
     list-style: none;
     padding: 10;
     background-color: darkcyan;
+    margin-bottom: 30px;
    
 }
 
@@ -46,4 +47,20 @@
 body {
     background-color: #ffd500;
     color:rgb(0, 0, 0);
+
+}
+
+h1 {
+  background-color: rgb(255, 228, 108);
+  padding: 10px;
+  margin: 15px;
+  text-align: center;
+  
+ 
+}
+div{
+    background-color: rgb(236, 203, 11);
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
 }
