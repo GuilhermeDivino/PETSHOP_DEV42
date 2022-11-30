@@ -70,5 +70,77 @@ let produtoJson = [
           '85g'
         ],
         description: 'Indicada para calopsítas;'
-    }
-];
+      },
+      {
+        id: 7,
+        name: 'Peitoral Griff Dog para Aves - Cores Sortidas',
+        img: 'images/brinquedo_passaro01.jpg',
+        price: [37.99, 37.99, 37.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Mais segurança na hora de passear;'
+    },
+    {
+        id: 8,
+        name: 'Brinquedo Pawise Bola Oca para Pássaros - Cores Sortidas',
+        img: 'images/brinquedo_passaro02.jpg',
+        price: [9.99, 9.99, 9.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Vai entreter seu pássaro;'
+    },
+    {
+        id: 9,
+        name: 'Brinquedo de Atividade Pawise Recompensa e Petisco para Pássaros - Cores Sortidas',
+        img: 'images/brinquedo_passaro03.jpg',
+        price: [29.99, 29.99, 29.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Ideal para deixa-lo muito feliz;'
+    },
+    {
+        id: 10,
+        name: 'Brinquedo Pawise Bola Brilhante para Pássaros',
+        img: 'images/brinquedo_cachorro04.jpg',
+        price: [9.99, 9.99, 9.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Possui uma bola brilhante que vai entreter seu pássaro;'
+    },
+    {
+        id: 11,
+        name: 'Brinquedo Cia dos Coelhos Balanço par Periquitos',
+        img: 'images/brinquedo_passaro05.jpg',
+        price: [7.99, 7.99, 7.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Entretém e diverte os periquitos;'
+    },
+    {
+        id: 12,
+        name: 'Brinquedo Pawise Espelho com Sino para Pássaros',
+        img: 'images/brinquedo_passaro06.jpg',
+        price: [23.99, 23.99, 23.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Espelho com dois sinos;'
+    },
+  ];
