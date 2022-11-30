@@ -142,5 +142,77 @@ let produtoJson = [
       '--'
     ],
     description: 'Proporciona bem-estar físico e mental;'
+  },
+  {
+  id: 13,
+  name: 'Cama Lisa Retangular Microfibra Urban Puppy para Cães e Gatos Cinza',
+  img: 'images/cama_gato01.jpg',
+  price: [149.99, 179.99, 199.99],
+  sizes: [
+    'P',
+    'M',
+    'G'
+  ],
+  description: 'Produzida em microfibra 100% poliéster;'
+},
+{
+  id: 14,
+  name: 'Manta Meu Pet para Cães e Gatos - Cores Sortidas',
+  img: 'images/cama_gato02.jpg',
+  price: [36.99, 69.99, 69.99],
+  sizes: [
+    '70x100',
+    '120x150',
+    '120x150'
+  ],
+  description: ' Manta de microfibra com toque gostoso, super quentinha e macia para seu pet;'
+},
+{
+  id: 15,
+  name: 'Almofada Ferplast Relax TRV para Cães e Gatos - Cores Sortidas',
+  img: 'images/cama_gato03.jpg',
+  price: [40.00, 90.00, 150.00],
+  sizes: [
+    '45/2',
+    '78/8',
+    '100/12'
+  ],
+  description: 'Dupla face, feito de algodão e pelúcia;'
+},
+{
+  id: 16,
+  name: 'Cama Fábrica Pet Retangular Marinho para Cães e Gatos',
+  img: 'images/cama_gato04.jpg',
+  price: [85.99, 97.99, 109.99],
+  sizes: [
+    'P',
+    'M',
+    'G'
+  ],
+  description: 'Especialmente elaborada para trazer maior aconchego ao seu pet;'
+},
+{
+  id: 17,
+  name: 'Cama Lisa Oval Sarja para Cães e Gatos Cinza',
+  img: 'images/cama_gato05.jpg',
+  price: [199.99, 229.99, 269.99],
+  sizes: [
+    'P',
+    'M',
+    'G'
+  ],
+  description: 'Produzida em sarja 100% algodão;'
+},
+{
+  id: 18,
+  name: 'Colchonete Cute&Co Microfibra Cinza para Cães e Gatos',
+  img: 'images/cama_gato06.jpg',
+  price: [69.99, 119.99, 179.99],
+  sizes: [
+    'P',
+    'M',
+    'G'
+  ],
+  description: 'Um colchonete divertido;'
 },
 ];

@@ -110,7 +110,7 @@ let produtoJson = [
     {
         id: 10,
         name: 'Brinquedo Pawise Bola Brilhante para Pássaros',
-        img: 'images/brinquedo_cachorro04.jpg',
+        img: 'images/brinquedo_passaro04.jpg',
         price: [9.99, 9.99, 9.99],
         sizes: [
           '--',
@@ -142,5 +142,77 @@ let produtoJson = [
           '--'
         ],
         description: 'Espelho com dois sinos;'
+      },
+      {
+        id: 13,
+        name: 'Caixa de Transporte Animalíssimo para pássaros - Cores Sortidas',
+        img: 'images/gaiola_passaro01.jpg',
+        price: [54.90, 54.90, 54.90],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Possui zíper e bolsos laterais;'
     },
-  ];
+    {
+        id: 14,
+        name: 'Capa para Fundo de Gaiolas Power Pets TNT - Cores Sortidas',
+        img: 'images/gaiola_passaro02.jpg',
+        price: [6.99, 10.99, 17.99],
+        sizes: [
+          'P',
+          'M',
+          'G'
+        ],
+        description: 'Proteção para o fundo da gaiola;'
+    },
+    {
+        id: 15,
+        name: 'Viveiro Bragança Like Play Ouro Velho para Papagaios',
+        img: 'images/gaiola_passaro03.jpg',
+        price: [949.99, 949.99, 949.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Máximo design, conforto e segurança para sua ave;'
+    },
+    {
+        id: 16,
+        name: 'Casa Griff Dog para Aves Fêmeas Rosa',
+        img: 'images/gaiola_passaro04.jpg',
+        price: [36.99, 36.99, 36.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Super confortável;'
+    },
+    {
+        id: 17,
+        name: 'Viveiro Mônaco Tubular Malha Larga Longo para Pássaros',
+        img: 'images/brinquedo_passaro05.jpg',
+        price: [999.99, 999.99, 999.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Espaçoso e seguro para suas aves;'
+    },
+    {
+        id: 18,
+        name: 'Viveiro Bragança Like Play Ouro Velho para Calopsitas',
+        img: 'images/brinquedo_passaro06.jpg',
+        price: [799.99, 799.99, 799.99],
+        sizes: [
+          '--',
+          '--',
+          '--'
+        ],
+        description: 'Máximo design, conforto e segurança para sua ave;'
+    },
+];

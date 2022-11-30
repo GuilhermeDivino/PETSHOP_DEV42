@@ -143,4 +143,76 @@ let produtoJson = [
       ],
       description: 'Material atóxico, não faz mal se ingerido;'
   },
-];
+  {
+    id: 13,
+    name: 'Casa Furacão para Cães Preta',
+    img: 'images/casinha_cachorro01.jpg',
+    price: [54.99, 94.90, 229.99],
+    sizes: [
+      'P',
+      'M',
+      'G'
+    ],
+    description: 'Ideal para ambientes externos e internos;'
+  },
+  {
+    id: 14,
+    name: 'Casa DuraPets Dura House Preta para Cães',
+    img: 'images/casinha_cachorro02.jpg',
+    price: [59.99, 159.99, 386.99],
+    sizes: [
+      'P',
+      'M',
+      'G'
+    ],
+    description: 'Montagem simples, basta encaixar;'
+  },
+  {
+    id: 15,
+    name: 'Casinha Recriar Pet para Cães Iglu Ecológica',
+    img: 'images/casinha_cachorro03.jpg',
+    price: [79.99, 149.99, 449.99],
+    sizes: [
+      'P',
+      'M',
+      'G'
+    ],
+    description: 'Alta durabilidade e lavável;'
+  },
+  {
+    id: 16,
+    name: 'Casa Furacão para Cães Rosa',
+    img: 'images/casinha_cachorro04.jpg',
+    price: [59.99, 187.90, 578.90],
+    sizes: [
+      'P',
+      'M',
+      'G'
+    ],
+    description: 'Fácil de montar e higienizar;'
+  },
+  {
+    id: 17,
+    name: 'Casa Furacão para Cães Azul',
+    img: 'images/casinha_cachorro05.jpg',
+    price: [59.99, 172.72, 531.92],
+    sizes: [
+      'P',
+      'M',
+      'G'
+    ],
+    description: 'Fácil de montar e higienizar;'
+  },
+  {
+    id: 18,
+    name: 'Toca Ideal Pequena Rosa para Cães e Gatos',
+    img: 'images/casinha_cachorro06.jpg',
+    price: [199.99, 199.99, 199.99],
+    sizes: [
+      '--',
+      '--',
+      '--'
+    ],
+    description: 'Toca de qualidade;'
+  },
+  ];

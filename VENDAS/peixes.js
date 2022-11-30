@@ -142,5 +142,77 @@ let produtoJson = [
         '--'
       ],
       description: 'Proporciona um ambiente bonito em seu aquário;'
+    },
+    {
+      id: 13,
+      name: 'Kit Meu Primeiro Aquário 20L Aquaterrário',
+      img: 'images/aquario_peixe01.jpg',
+      price: [259.99, 259.99, 259.99],
+      sizes: [
+        '--',
+        '--',
+        '--'
+      ],
+      description: 'Aquário retangular com sump traseiro nano 20;'
+  },
+  {
+      id: 14,
+      name: 'Aquário de Vidro Retangular Teruo Yamamoto para Peixes',
+      img: 'images/aquario_peixe02.jpg',
+      price: [78.99, 188.99, 734.99],
+      sizes: [
+        'P',
+        'M',
+        'G'
+      ],
+      description: 'Pode ser usado para peixes de água salgada e doce, répteis e tartarugas;'
+  },
+  {
+      id: 15,
+      name: 'Aquário Beteira Design para Peixes Casinha Decorada',
+      img: 'images/aquario_peixe03.jpg',
+      price: [35.99, 35.99, 35.99],
+      sizes: [
+        '--',
+        '--',
+        '--'
+      ],
+      description: 'Bonito e ideial para decoração; '
+  },
+  {
+      id: 16,
+      name: 'Aquário Beteira Teruo Yamamoto 1l',
+      img: 'images/aquario_peixe04.jpg',
+      price: [26.99, 26.99, 26.99],
+      sizes: [
+        '--',
+        '--',
+        '--'
+      ],
+      description: 'Possui o tamanho ideal para o peixe betta;'
+  },
+  {
+      id: 17,
+      name: 'Aquário Boyu Curvo Preto EC-600 66L',
+      img: 'images/aquario_peixe05.jpg',
+      price: [999.99, 999.99, 999.99],
+      sizes: [
+        '110V',
+        '220V',
+        '220V'
+      ],
+      description: 'Aquário de água doce e marinha;'
+  },
+  {
+      id: 18,
+      name: 'Aquário Beteira Design Tubular Decorada',
+      img: 'images/aquario_peixe06.jpg',
+      price: [35.99, 35.99, 35.99],
+      sizes: [
+        '--',
+        '--',
+        '--'
+      ],
+      description: 'Ofereça o tradicional aquário para seu animalzinho;'
   }
 ];
