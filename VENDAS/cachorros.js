@@ -17,6 +17,8 @@ let produtoJson = [
         img: 'images/racao_dog02.jpg',
         price: [169.90, 169.90, 169.90],
         sizes: [
+          '15kg',
+          '15kg',
           '15kg'
         ],
         description: '- Indicada para cães em treinamento e competição;'
@@ -28,7 +30,8 @@ let produtoJson = [
         price: [149.99, 194.90, 194.90],
         sizes: [
           '15kg',
-          '20kg'
+          '20kg',
+          '20g'
         ],
         description: 'Indicada para cães adultos;'
     },
@@ -38,6 +41,8 @@ let produtoJson = [
         img: 'images/racao_dog04.jpg',
         price: [176.90, 176.90, 176.90],
         sizes: [
+          '15kg',
+          '15kg',
           '15kg'
         ],
         description: 'Indicado para cães;'
@@ -48,6 +53,8 @@ let produtoJson = [
         img: 'images/racao_dog05.jpg',
         price: [169.90, 169.90, 169.90],
         sizes: [
+          '15kg',
+          '15kg',
           '15kg'
         ],
         description: 'Indicada para cães adultos de porte grande;'
@@ -58,6 +65,8 @@ let produtoJson = [
         img: 'images/racao_dog06.jpg',
         price: [176.90, 176.90, 176.90],
         sizes: [
+          '15kg',
+          '15kg',
           '15kg'
         ],
         description: 'Indicada para cães adultos a partir de 7 anos;'
